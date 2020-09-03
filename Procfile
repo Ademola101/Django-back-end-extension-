@@ -1,0 +1,1 @@
+web: gunicorn Django%20N.wsgi --log-file-

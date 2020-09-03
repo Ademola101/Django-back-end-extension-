@@ -25,7 +25,7 @@ SECRET_KEY = '&s2)iyhbgv28v74i04ax@e42d^(1b#uz-&ful@=8&v*-z=22$_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['myprojectusermetrics.herokuapp.com']
 
 
 # Application definition
@@ -121,3 +121,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+LOGIN = '/admin/myapp/usersubscriber/'
+LOGIN_URL = '/admin/myapp/usersubscriber/'
+LOGIN_REDIRECT_URL = '/admin/myapp/usersubscriber/'
+
