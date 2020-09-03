@@ -124,7 +124,7 @@ STATIC_URL = '/static/'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-LOGIN = '/admin/myapp/usersubscriber/'
-LOGIN_URL = '/admin/myapp/usersubscriber/'
-LOGIN_REDIRECT_URL = '/admin/myapp/usersubscriber/'
+LOGIN = '/admin/myapp/ProfileAdmin/'
+LOGIN_URL = '/admin/myapp/ProfileAdmin/'
+LOGIN_REDIRECT_URL = '/admin/myapp/ProfileAdmin/'
 
