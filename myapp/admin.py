@@ -74,7 +74,7 @@ class ProfileAdmin(admin.ModelAdmin):
 class SendUserEmails(FormView):
     template_name = 'admin/send_email.html'
     form_class = SendEmailForm
-    success_url = '/admin/dashboard/Profile/'
+    success_url = '/admin/myapp/Profile/'
 
     def form_valid(self, form):
         users = form.cleaned_data['users']
