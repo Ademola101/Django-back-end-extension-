@@ -19,6 +19,6 @@ from django.contrib.auth import views as auth_views
 from myapp.admin import SendUserEmails
 
 urlpatterns = [
-    path("", admin.site.urls),
+    path('', admin.site.urls),
     path('sendemail/', SendUserEmails.as_view(), name='email')
 ]
