@@ -19,15 +19,6 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib import messages
 from .Forms import SendEmailForm
 
-
-#def total_user(obj,self):
- #       return ("%s" % (obj.username).count())
-#total_user.short_description = "Name"
-#UserAdmin.list_display = ('username','first_name','last_name','date_joined','total_user')
-#today = datetime.date.today()
-#last_week = today - datetime.timedelta(days=7)
-#a = User.objects.filter(last_login__range = (last_week,today))
-#UserAdmin.list_display = ('username','first_name','last_name','date_joined','is_active')
 #UserAdmin.actions = ["is_active"]
 @admin.register(Profile)
 class ProfileAdmin(admin.ModelAdmin):
