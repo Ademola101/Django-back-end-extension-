@@ -1,11 +1,15 @@
 # Django back end extension
+
 > Extension of Django admin dashboard disharing user activities metrics 
 
-![screenshot](https://user-images.githubusercontent.com/84777739/126904679-7bb0e4a7-b2b4-4cda-941f-31d8890253c8.jpg)
-## Built With 
-Python <br>   Django <br> Bootstrap >br> JavaScript <br>ChartJs
+![screenshot](/images/django-admin.png)
 
-## Live Demo
+## Built With
+
+Python
+<br>   Django <br> Bootstrap <br> JavaScript <br>ChartJs
+
+### Live Demo
 
 [Live Demo link](https://myprojectusermetrics.herokuapp.com/)
 
